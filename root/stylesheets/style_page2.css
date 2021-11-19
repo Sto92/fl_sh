@@ -1,0 +1,172 @@
+/* -------------------------------------------------------------------------- */
+/*                                    SETUP                                   */
+/* -------------------------------------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+header {
+  width: 100vw;
+}
+.boxes {
+  display: grid;
+  grid-template-columns: 50px 561px 1fr 107px;
+  grid-template-rows: 359px 70px 355px 70px 315px 70px;
+}
+/*  */
+
+/* -------------------------------------------------------------------------- */
+/*                                    BOXES                                   */
+/* -------------------------------------------------------------------------- */
+.box1 {
+  height: 284px;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.box2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row: 1;
+  grid-column: 2/4;
+}
+.box3 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row: 3;
+  grid-column: 2/4;
+}
+.box4 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row: 5;
+  grid-column: 2/4;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    PICS                                    */
+/* -------------------------------------------------------------------------- */
+
+.puked {
+  filter: saturate(60%);
+  height: 359px;
+  grid-column: 1/2;
+  width: 533px;
+}
+.egg {
+  height: 355px;
+  grid-column: 2/3;
+  filter: brightness(110%) saturate(80%);
+  width: 533px;
+}
+.oï {
+  height: 315px;
+  grid-column: 1/2;
+  filter: brightness(110%) saturate(80%);
+  width: 533px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                     TXT                                    */
+/* -------------------------------------------------------------------------- */
+.txt1 {
+  grid-column: 2/3;
+  width: 507px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.txt2 {
+  width: 507px;
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.txt3 {
+  width: 507px;
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.wl {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 23px;
+}
+/* -------------------------------------------------------------------------- */
+/*                                OTHER SCREENS                               */
+/* -------------------------------------------------------------------------- */
+@media screen and (max-width: 750px) {
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+  }
+  .boxes img {
+    width: 654px;
+  }
+  .boxes figcaption {
+    width: 654px;
+  }
+  .box2 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+  .box3 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: space-between;
+  }
+  .box4 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+}
+.boxes figure {
+  margin-bottom: 90px;
+}
+figcaption h2 {
+  margin-top: 38px;
+}
+@media screen and (max-width: 500px) {
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+  }
+  .boxes img {
+    width: 405px;
+  }
+  .boxes figcaption {
+    width: 405px;
+  }
+  .box2 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+  .box3 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: space-between;
+  }
+  .box4 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+}
+.boxes figure {
+  margin-bottom: 90px;
+}
+figcaption h2 {
+  margin-top: 38px;
+}

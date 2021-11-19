@@ -1,0 +1,130 @@
+/* -------------------------------------------------------------------------- */
+/*                                    SETUP                                   */
+/* -------------------------------------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100vw;
+}
+main {
+  width: 100vw;
+}
+header {
+  background-color: #284b63;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 57px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+hr {
+  color: 1px solid black;
+  margin-left: 23px;
+  margin-right: 23px;
+  margin-top: 5px;
+}
+span {
+  color: #71787f;
+  font-size: 14px;
+}
+/* -------------------------------------------------------------------------- */
+/*                                     NAV                                    */
+/* -------------------------------------------------------------------------- */
+nav {
+  margin-right: 100px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.links {
+  color: white;
+}
+.btn {
+  background-color: #f6ecd4;
+  border: 1px solid #f2cb6c;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                               Footer de merde                              */
+/* -------------------------------------------------------------------------- */
+.btn1 {
+  grid-column: 7;
+  grid-row: 1;
+  background-color: #f6ecd4;
+  border: 1px solid #f2cb6c;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 140px;
+  height: 35px;
+}
+.logo1 {
+  margin-left: 100px;
+}
+.footend {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+}
+.footop {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 75px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+.end {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 23px;
+}
+.wl {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 23px;
+}
+.logogo {
+  margin-left: 23px;
+  width: 170px;
+}
+.logoend {
+  height: 36px;
+  width: 36px;
+  height: 47px;
+}
+.logofin {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 23px;
+  justify-content: flex-end;
+}
